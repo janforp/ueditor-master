@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * 该类是：
  */
 @Controller
-@RequestMapping(value = "/upload")
+@RequestMapping("/upload")
 public class UploadController {
 
     @RequestMapping("/index")
