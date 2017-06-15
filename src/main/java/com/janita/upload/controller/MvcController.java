@@ -4,15 +4,15 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Created by Janita on 2017/6/15 0015-下午 2:56
- * 该类是：
+ * Created by Janita on 2017/3/13 0013.
+ * oss
  */
 @Controller
-@RequestMapping("/upload")
-public class UploadController {
+@RequestMapping("/mvc")
+public class MvcController {
 
     @RequestMapping("/index")
-    public String toPage() {
-        return "upload";
+    public String index(){
+        return "index";
     }
 }
